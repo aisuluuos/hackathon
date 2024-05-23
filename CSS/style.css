@@ -21,7 +21,7 @@
 .contactLogo img {
   padding-top: 20px;
   width: 30px;
-  height: 30px;
+  height: 50px;
 }
 .footerInfo a {
   color: rgb(180, 180, 180);
@@ -32,4 +32,14 @@
 }
 .footerInfo a:hover {
   color: white;
+}
+.foodSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.card-text {
+  font-size: 13px;
+  color: gray;
 }
