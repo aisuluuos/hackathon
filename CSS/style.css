@@ -21,10 +21,16 @@ h1 {
   height: 50px;
 }
 
+<<<<<<< body
+.footerInfo a {
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+=======
 .nav-links {
   display: flex;
   gap: 40px;
   justify-content: space-between;
+>>>>>>> main
 }
 
 .nav-links li {
