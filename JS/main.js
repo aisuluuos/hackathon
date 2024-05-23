@@ -142,7 +142,7 @@ function editFood(pizza, id) {
     body: JSON.stringify(pizza),
   }).then(() => readFood());
 }
-//!-----------------PAGINATION--------------------------
+//!-----------------PAGINATION-------------------------
 async function pageFunc() {
   const res = await fetch(API);
   const data = await res.json();
