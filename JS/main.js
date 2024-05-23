@@ -1,77 +1,12 @@
 const API = "http://localhost:8000/menu";
-const inpName = document.querySelector("#inpName");
-const inpIngr = document.querySelector("#inpIngr");
-const inpImg = document.querySelector("#inpImg");
-const inpPrice = document.querySelector("#inpPrice");
-const btnAdd = document.querySelector("#btnAdd");
-const foodSection = document.querySelector(".foodSection");
-const collapseThree = document.querySelector("#collapseThree");
 const searchInput = document.getElementById("search-input");
-let searchValue = "";
-let prevBtn = document.querySelector("#prevBtn");
-let nextBtn = document.querySelector("#nextBtn");
-let countPage = 1;
-let currentPage = 1;
-//!-------------CREATE---------------
-btnAdd.addEventListener("click", () => {
-  if (
-    !inpName.value.trim() ||
-    !inpIngr.value.trim() ||
-    !inpImg.value.trim() ||
-    !inpPrice.value.trim()
-  ) {
-    alert("Введите данные");
-    return;
-  }
-  let newPizza = {
-    pizzaName: inpName.value,
-    pizzaIngr: inpIngr.value,
-    pizzaImg: inpImg.value,
-    pizzaPrice: inpPrice.value,
-  };
-  createFood(newPizza);
-  readFood();
-  inpName.value = "";
-  inpIngr.value = "";
-  inpImg.value = "";
-  inpPrice.value = "";
-  collapseThree.classList.toggle("show");
-});
-function createFood(pizza) {
-  fetch(API, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json;charset=utf-8",
-    },
-    body: JSON.stringify(pizza),
+//!--------------------SEARCH-------------------------
+document.addEventListener("DOMContentLoaded", function () {
+  searchInput.addEventListener("input", function (e) {
+    searchValue = e.target.value;
+    readFood();
   });
-}
-//!-----------READ---------------
-async function readFood() {
-  const res = await fetch(
-    `${API}?q=${searchValue}&_page=${currentPage}&_limit=8`
-  );
-  const data = await res.json();
-  foodSection.innerHTML = "";
-  data.forEach((elem) => {
-    foodSection.innerHTML += `
-      <div class="card m-4 cardBook" style="width: 250px">
-          <img style= "height: 250px" src="${elem.pizzaImg}" alt="${elem.pizzaName}" />
-          <div class="card-body">
-            <h6 class="card-title">${elem.pizzaName}</h6>
-            <p class="card-text">${elem.pizzaIngr}</p>
-            <span>${elem.pizzaPrice}</span>
-            <button type="button" class="btn btn-danger btnDelete" id = "${elem.id}">
-            Удалить
-          </button>
-          <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" class="btn btn-info btnEdit" id = "${elem.id}">
-          Редактировать
-        </button>
-        <button type="button" style="background-color:yellow" id = "${elem.id}" class="btn btn-info btnDetail">Детальный обзор</button>
-          </div>
-        </div>
-      `;
-  });
+<<<<<<< body
   pageFunc();
 }
 readFood();
@@ -183,4 +118,6 @@ document.addEventListener("click", (e) => {
         console.error("Ошибка при загрузке детальной информации:", error);
       });
   }
+=======
+>>>>>>> main
 });
