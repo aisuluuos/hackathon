@@ -3,22 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Додо Пицца</title>
+    <title>Пример сайта</title>
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <img src="logo.png" alt="Додо Пицца" class="logo" />
-      </div>
-      <ul class="navbar-menu">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Меню</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-      <div class="navbar-toggle" id="navbar-toggle">&#9776;</div>
-    </nav>
-    <script src="./JS/main.js"></script>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./img/klipartz.com (2).png" alt="Логотип" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#" id="pizza-link">Пицца</a></li>
+          <li><a href="#" id="desserts-link">Десерты</a></li>
+          <li><a href="#" id="drinks-link">Напитки</a></li>
+          <li><a href="#" id="cart-link">Корзина</a></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" placeholder="Поиск..." id="search-input" />
+          <button id="search-button">Поиск</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="content"></section>
+    </main>
+    <script src="JS/main.js"></script>
   </body>
 </html>
