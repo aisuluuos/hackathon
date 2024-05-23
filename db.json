@@ -1,3 +1,200 @@
 {
-  "menu": []
+  "menu": [
+    {
+      "pizzaName": "Баварская",
+      "pizzaIngr": "Охотничьи колбаски, маринованные огурчики, красный лук, томаты, горчичный соус, моцарелла, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EEF62E524C7681899886131CF3354C.avif",
+      "pizzaPrice": "735",
+      "id": 1
+    },
+    {
+      "pizzaName": "Сырная",
+      "pizzaIngr": "Моцарелла, смесь сыров чеддер и пармезан, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D600BC7B9F1B6888AF021E5C198.avif",
+      "pizzaPrice": "560",
+      "id": 2
+    },
+    {
+      "pizzaName": "Ветчина и сыр",
+      "pizzaIngr": "Ветчина из цыпленка, увеличенная порция моцареллы, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D60109D7D49BF0AC5BCAD0F9679.avif",
+      "pizzaPrice": "670",
+      "id": 3
+    },
+    {
+      "pizzaName": "Двойной цыпленок",
+      "pizzaIngr": "Двойная порция цыпленка, моцарелла, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D601DD7A15C85B8F38026F12402.avif",
+      "pizzaPrice": "455",
+      "id": 4
+    },
+    {
+      "pizzaName": "Маргарита",
+      "pizzaIngr": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D5FFA55D940A5174B17EE35C316.avif",
+      "pizzaPrice": "567",
+      "id": 5
+    },
+    {
+      "pizzaName": "Песто",
+      "pizzaIngr": "Цыпленок, моцарелла, кубики брынзы, томаты, соус песто, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D60177073018C580C07B2F34917.avif",
+      "pizzaPrice": "355",
+      "id": 6
+    },
+    {
+      "pizzaName": "Карбонара",
+      "pizzaIngr": "Ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, томаты, красный лук, чеснок сухой, итальянские травы, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D60160C1A26A8F6AB3C6F501345.avif",
+      "pizzaPrice": "670",
+      "id": 7
+    },
+    {
+      "pizzaName": "Мясная",
+      "pizzaIngr": "Цыпленок, ветчина из цыпленка, пепперони из цыпленка, колбаски чоризо из цыпленка, моцарелла, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EF02382F16D01987A5126129EE47AC.avif",
+      "pizzaPrice": "450",
+      "id": 8
+    },
+    {
+      "pizzaName": "Аррива!",
+      "pizzaIngr": "Цыпленок, колбаски чоризо из цыпленка, моцарелла, сладкий перец, красный лук, томаты, чеснок сухой, соус ранч, бургер соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D6013454CD6BE264FC142D1BD35.avif",
+      "pizzaPrice": "560",
+      "id": 9
+    },
+    {
+      "pizzaName": "Бургер Пицца",
+      "pizzaIngr": "Ветчина из цыпленка, моцарелла, лук красный, томаты, соленые огурчики, чеснок сухой, бургер соус, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D60266964FFA4A49159F0A96A1E.avif",
+      "pizzaPrice": "560",
+      "id": 10
+    },
+    {
+      "pizzaName": "Сырный цыпленок",
+      "pizzaIngr": "Цыпленок, моцарелла, смесь сыров чеддер и пармезан, томаты, чеснок сухой, сырный соус, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D6007F1524DA2ED9C24D3C57ACE.avif",
+      "pizzaPrice": "450",
+      "id": 11
+    },
+    {
+      "pizzaName": "Додо",
+      "pizzaIngr": "Ветчина из цыпленка, пепперони из цыпленка, фарш из говядины, моцарелла, шампиньоны, сладкий перец, красный лук, томаты, чеснок сухой, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D5FFFEF64678F36FEAF9DE80589.avif",
+      "pizzaPrice": "450",
+      "id": 12
+    },
+    {
+      "pizzaName": "Пепперони",
+      "pizzaIngr": "Пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D5FFC0EE4D5A53D2067EF1E84FA.avif",
+      "pizzaPrice": "670",
+      "id": 13
+    },
+    {
+      "pizzaName": "Четыре сезона",
+      "pizzaIngr": "Ветчина из цыпленка, пепперони из цыпленка, моцарелла, кубики брынзы, томаты, шампиньоны, итальянские травы, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D600A6E843A8E7713BFA59DFE4F.avif",
+      "pizzaPrice": "560",
+      "id": 14
+    },
+    {
+      "pizzaName": "Гавайская",
+      "pizzaIngr": "Ветчина из цыпленка, моцарелла, ананасы, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EF02C883A425BD913D8AE9E223A518.avif",
+      "pizzaPrice": "650",
+      "id": 15
+    },
+    {
+      "pizzaName": "Ветчина и грибы",
+      "pizzaIngr": "Ветчина из цыпленка, увеличенная порция моцареллы, шампиньоны, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D600DE7D9C58E21A5D97F45C605.avif",
+      "pizzaPrice": "450",
+      "id": 16
+    },
+    {
+      "pizzaName": "Цыпленок барбекю",
+      "pizzaIngr": "Цыпленок, ветчина из цыпленка, моцарелла, красный лук, соус барбекю, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D6009411CBA8EA4DD066B9C0FAB.avif",
+      "pizzaPrice": "560",
+      "id": 17
+    },
+    {
+      "pizzaName": "Цыпленок ранч",
+      "pizzaIngr": "Цыпленок, ветчина из цыпленка, моцарелла, томаты, чеснок сухой, соус ранч",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D60014C5C5BA05197839EA74781.avif",
+      "pizzaPrice": "560",
+      "id": 18
+    },
+    {
+      "pizzaName": "Азиатская",
+      "pizzaIngr": "Фарш из говядины, моцарелла, сушенный перец Чили, томаты, красный лук, сладкий перец, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EEC6DEEF2A8314A75E734E42048301.avif",
+      "pizzaPrice": "450",
+      "id": 19
+    },
+    {
+      "pizzaName": "Мексиканская",
+      "pizzaIngr": "Цыпленок, моцарелла, сладкий перец, красный лук, острый перец халапеньо, томаты, соус сальса, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EF02374C703B36BEFB978E377346A2.avif",
+      "pizzaPrice": "450",
+      "id": 20
+    },
+    {
+      "pizzaName": "Овощи и грибы",
+      "pizzaIngr": "Моцарелла, кубики брынзы, томаты, маслины, шампиньоны, сладкий перец, красный лук, итальянские травы, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EF02C90F9C8C8DBA1E10276EA2D218.avif",
+      "pizzaPrice": "560",
+      "id": 21
+    },
+    {
+      "pizzaName": "Двойная Пепперони",
+      "pizzaIngr": "Двойная порция пепперони из цыпленка, увеличенная порция моцареллы, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D5FF78033BC90CAA234BEC0CD26.avif",
+      "pizzaPrice": "450",
+      "id": 22
+    },
+    {
+      "pizzaName": "Супермясная",
+      "pizzaIngr": "Цыпленок, пепперони из цыпленка, ветчина из цыпленка, фарш из говядины, колбаски чоризо из цыпленка, моцарелла, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D5FF8E6FD8488ECB419A1BBD94A.avif",
+      "pizzaPrice": "340",
+      "id": 23
+    },
+    {
+      "pizzaName": "Жгучая Пепперони",
+      "pizzaIngr": "Пепперони из цыпленка, моцарелла, острый перец халапеньо, красный лук, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EEC6DF3632160DB519830EEFD2C87C.avif",
+      "pizzaPrice": "550",
+      "id": 24
+    },
+    {
+      "pizzaName": "Четыре сыра с медом",
+      "pizzaIngr": "Моцарелла, смесь сыров чеддер и пармезан, сыр блю чиз, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D5FED9BB0F5AD77AF4D2504ED1C.avif",
+      "pizzaPrice": "540",
+      "id": 25
+    },
+    {
+      "pizzaName": "Пепперони Фреш",
+      "pizzaIngr": "Пепперони из цыпленка, увеличенная порция моцареллы, томаты, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EEE203876D817B90FB82EA8158BF5D.avif",
+      "pizzaPrice": "450",
+      "id": 26
+    },
+    {
+      "pizzaName": "Деревенская",
+      "pizzaIngr": "Моцарелла, картофель из печи, соленые огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок сухой, томатный соус",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D6014AA98A0A02B23B5E9087E2C.avif",
+      "pizzaPrice": "780",
+      "id": 27
+    },
+    {
+      "pizzaName": "Додо Микс",
+      "pizzaIngr": "Цыпленок, ветчина из цыпленка, моцарелла, смесь сыров чеддер и пармезан, сыр блю чиз, кубики брынзы, красный лук, томаты, чеснок сухой, итальянские травы, соус песто, соус альфредо",
+      "pizzaImg": "https://media.dodostatic.net/image/r:233x233/11EE7D601CA4814686454D91F7F0C7BE.avif",
+      "pizzaPrice": "780",
+      "id": 28
+    }
+  ]
 }
