@@ -30,3 +30,6 @@
 .footerInfo h3 a {
   color: white;
 }
+.footerInfo a:hover {
+  color: white;
+}
