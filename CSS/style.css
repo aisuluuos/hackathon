@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+.footer {
+  background-color: #ff6600;
+  padding-bottom: 50px;
+}
+.footerInfo {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.footerInfo h5 {
+  color: white;
+  font-weight: 500;
+  font-family: Nunito Sans;
+  font-size: 17px;
+  padding-bottom: 7px;
+}
+.contactLogo img {
+  padding-top: 20px;
+  width: 30px;
+  height: 30px;
+}
+.footerInfo a {
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+}
+.footerInfo h3 a {
+  color: white;
+}
